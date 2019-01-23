@@ -1,4 +1,11 @@
 <?php
+/**
+ * Converts value to integer format.
+ *
+ * @param string $value
+ *
+ * @return int
+ */
 function toInt($value)
 {
     if (is_array($value)) {
